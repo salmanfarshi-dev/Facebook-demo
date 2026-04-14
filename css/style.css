@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.facebookdemo{
+    width: 100%;
+    height: 100vh;
+}
+.facebookdemo img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.facebookdemo::after{
+    content: '';
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: rgba(26, 26, 26, 0.9);
+    position: absolute;
+    z-index: 1;
+}
+
+
+.text-items{
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 999;
+   
+}
+.content-header{
+    background: white;
+    width: 600px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+.image{
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+input{
+    width: 60%;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: none;
+    background: rgba(128, 128, 128, .3);
+    color: #1a1a1a;
+    font-size: 14px;
+}
+input:focus{
+    outline: none;
+    border: none;
+}
+.icons{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+.icons i{
+    font-size: 18px;
+}
+.icons i:nth-child(1){
+    color: red;
+}
+.icons i:nth-child(2){
+    color: green;
+}
+.icons i:nth-child(3){
+    color: rgb(162, 162, 5);
+}
+
+.card-items{
+    background: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    width: 600px;
+}
+.Cards h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+    padding: 0 0 10px 0;
+}
+.create-items{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+.card-items{
+    display: none;
+}
+.lists{
+    margin: 10px 0;
+}
+.namefield{
+    margin-left: 50%;
+    transform: translate(-70%);
+    color: red;
+    font-weight: 400;
+    display: none;
+}
+.number{
+    margin-left: 50%;
+    transform: translate(-70%);
+    color: red;
+    font-weight: 400;
+    display: none;
+}
+.textfield{
+    color: red;
+    margin-top: 20px;
+    margin-left: 30px;
+    display: none;
+}
+.card-items img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.Cards input{
+    padding:5px 10px;
+    font-size: 18px;
+}
+.textarea{
+    margin-top: 30px;
+    width: 100%;
+    background: transparent;
+}
+.bottom-part{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.bottom-part i{
+    font-size: 20px;
+}
+.bottom-part i:nth-child(1){
+    color: green;
+}
+.bottom-part i:nth-child(2){
+   color: rgb(162, 162, 5);
+}
+
+.post{
+    width: 100%;
+    margin-top: 30px;
+}
+.update{
+    width: 100%;
+    display: none;
+    margin-top: 10px;
+}
+.lists{
+    background: #fff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.text-Items h5{
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.text-Items p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.button-list{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
