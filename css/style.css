@@ -194,3 +194,107 @@ input:focus{
     font-size: 18px;
     cursor: pointer;
 }
+
+
+/* responsive  */
+
+@media (min-width:320px) and (max-width:575.99px){
+  .text-items{
+    top: 100px;
+   
+}
+.content-header{
+    width: 300px;
+}
+.image{
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+input{
+    width: 50%;
+}
+.icons i{
+    font-size: 14px;
+}
+.card-items{
+    width: 100%;
+}
+.Cards h3{
+    font-size: 20px;
+}
+
+.namefield{
+    transform: translate(-50%);
+    font-size: 12px;
+}
+.number{
+    transform: translate(-50%);
+    font-size: 12px;
+}
+.textfield{
+    font-size: 12px;
+}
+.card-items img{
+    width: 40px;
+    height: 40px;
+}
+.Cards input{
+    font-size: 14px;
+}
+
+.bottom-part{
+    margin-top: 50px;
+}
+.bottom-part i{
+    font-size: 15px;
+}
+.text-Items h5{
+    font-size: 18px;
+}
+.text-Items p{
+    font-size: 14px;
+}
+.button-list{
+    font-size: 14px;
+}
+}
+@media (min-width:576px) and (max-width:767.99px){
+
+.content-header{
+    width: 570px;
+}
+.image{
+    width: 40px;
+    height: 40px;
+}
+input{
+    width: 60%;
+}
+.icons i{
+    font-size: 16px;
+}
+.card-items{
+    width: 100%;
+}
+.Cards h3{
+    font-size: 25px;
+}
+
+.namefield{
+    transform: translate(-75%);
+    font-size: 14px;
+}
+.number{
+    transform: translate(-75%);
+    font-size: 14px;
+}
+.textfield{
+    font-size: 14px;
+}
+.card-items img{
+    width: 50px;
+    height: 50px;
+}
+}
